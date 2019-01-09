@@ -15,3 +15,4 @@ def createDatabase():
     SociologiaModel.Sociologia
 
     database.create_all()
+#createDatabase()

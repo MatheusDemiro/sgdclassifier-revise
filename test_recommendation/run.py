@@ -40,7 +40,7 @@ def table_exists(name):
 if __name__ == "__main__":
     while True:
         area = input("Informe a área de conhecimento sem acentos e/ou caracteres especiais (digite 0 para sair): ").lower()
-        if area == 0:
+        if area == '0':
             break
         text = input("Digite o texto: ")
 
